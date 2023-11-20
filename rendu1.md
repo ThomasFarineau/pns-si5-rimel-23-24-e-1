@@ -37,7 +37,7 @@ KPI/Outils : Taux de réussite de reproductibilité (pourcentage d'expériences 
 Ces sous-questions et KPI visent à évaluer en détail l'efficacité de MLflow dans la gestion des expériences de ML, en se concentrant sur la reproductibilité et la traçabilité, des éléments clés pour les pratiques de MLOps.
 ## La démarche prévue
 1. **Analyse de la documentation approfondie** : Commencer par une analyse exhaustive de la documentation officielle de MLflow, des articles académiques, et des études de cas disponibles pour obtenir une compréhension théorique solide de la gestion des expériences dans MLflow. Cette phase inclurait également l'examen des contributions communautaires et des discussions sur des forums spécialisés pour saisir les pratiques actuelles et les défis rencontrés par les utilisateurs.
-	- Analyse de l'existant sur les topics github disponible en publique. 
+	- Analyse de l'existant sur les topics github disponibles en public. 
 
 2. **Développement de cas d'utilisation** : Créer des scénarios d'utilisation spécifiques reflétant différents aspects de la gestion des expériences dans MLflow. Cela aiderait à tester la plateforme dans des conditions réelles, en mettant l'accent sur le stockage des données, le suivi des métriques, et la reproductibilité.
 
