@@ -24,13 +24,16 @@ date:   2023-11
 
 We are four students in M2 or in last year of Polytech' Nice-Sophia specialized in Software Architecture :
 
-* .... &lt;xxx@gmail.com&gt;
+* thomas.farineau@etu.univ-cotedazur.fr
+* leo.kitabdjian@etu.univ-cotedazur.fr
+* ludovic.bailet@etu.univ-cotedazur.fr
+* mohamed.mahjoub@etu.univ-cotedazur.fr
 
      :bulb: Les chapitres restant accessibles longtemps, si vous le souhaitez, vous pouvez utiliser ici une adresse pérenne pour être contacté ultérieurement.
 
 ## I. Research context /Project
 
-Préciser ici votre contexte et Pourquoi il est intéressant. **
+La question générale porte sur la gestion des expériences dans MLflow. Cette question est particulièrement intéressante car elle touche au cœur de MLOps, explorant comment l'intégration et la gestion efficace des expériences de machine learning peuvent améliorer la qualité, la rapidité et la fiabilité du développement des modèles. En comprenant mieux cette gestion, nous pouvons déduire des pratiques optimales pour la conduite d'expériences en machine learning, essentielles pour toute avancée significative dans ce domaine. Cette compréhension est cruciale pour les organisations cherchant à adopter des pratiques de MLOps pour accélérer et fiabiliser leurs projets d'apprentissage automatique.
 
 
 ## II. Observations/General question
