@@ -2,12 +2,9 @@
 # Rendu 1
 **Groupe 2 - Sujet 1**
 
-Thomas FARINEAU
-
-Léo KITABADJIAN
-
+Thomas FARINEAU<br>
+Léo KITABADJIAN\n
 Ludovic BAILET
-
 Mohamed MAHJOUB
 
 
