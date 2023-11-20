@@ -19,22 +19,26 @@ L'étude de la gestion des expériences par MLflow est particulièrement captiva
 
 ## Une première décomposition en sous-questions et les métriques/KPI/outils **envisagés** pour y répondre
 
-Pour explorer la gestion des expériences dans MLflow, la question se décompose en sous-questions :
 
-1. Stockage des Informations : Comment et où les données d'expérience sont-elles stockées ?
-2. Suivi des métriques et paramètres : Quels sont les outils utilisés pour le suivi des métriques et paramètres des expériences ?
-3. Reproductibilité des Expériences : Comment la reproductibilité est-elle assurée ?
+Pour approfondir la gestion des expériences dans MLflow, nous pouvons décomposer la question principale en sous-questions spécifiques, tout en se concentrant sur des KPI (Key Performance Indicators) et outils spécifiques :
 
-Les KPI et outils envisagés incluent :
+1. **Stockage des Informations** : Quelles, comment et où les données d'expérience sont-elles stockées dans MLflow ?
+KPI/Outils : Capacité de stockage (volume de données gérées), efficacité du stockage (temps d'accès aux données).
 
-- Efficacité du stockage : mesure de la capacité de MLflow à stocker efficacement de grandes quantités de données d'expérience.
-- Précision du Suivi : Évaluation de la précision et de la fiabilité des outils de suivi des métriques.
-- Tests de reproductibilité : Tests pratiques pour évaluer la facilité de reproduction des expériences.
+2. **Suivi des métriques et paramètres** : Comment MLflow suit-il les métriques et paramètres des expériences ?
+KPI/Outils : Précision du suivi (exactitude des données enregistrées), intégrité des données (cohérence et complétude des données).
 
+3. **Reproductibilité des expériences** : La reproductibilité des expériences est-elle assurée par MLflow ?
+KPI/Outils : Taux de réussite de reproductibilité (pourcentage d'expériences reproduites avec succès), facilité de reconfiguration (temps et effort nécessaires pour répéter une expérience).
+
+4. **Traçabilité des expériences** : MLFlow garantit-il une traçabilité des expériences ?
+KPI/Outils : Traçabilité des modifications (capacité à suivre les changements dans les expériences), transparence des processus (clarté dans la documentation des expériences), historique des versions (gestion et accessibilité de l'historique des expériences et des modèles).
+
+Ces sous-questions et KPI visent à évaluer en détail l'efficacité de MLflow dans la gestion des expériences de ML, en se concentrant sur la reproductibilité et la traçabilité, des éléments clés pour les pratiques de MLOps.
 ## La démarche prévue
 La démarche prévue consiste en une série d'analyses et de tests pratiques. Premièrement, une exploration documentaire du fonctionnement interne de MLflow, en particulier sur sa gestion des expériences, sera effectuée. Cette analyse inclura l'examen de la documentation officielle de MLflow et des articles académiques pertinents. Ensuite, des tests pratiques seront menés pour évaluer comment MLflow gère le stockage des données, le suivi des métriques, et assure la reproductibilité des expériences. Ces tests impliquent la mise en œuvre de diverses expériences de machine learning en utilisant MLflow, suivies d'une évaluation de la performance des outils et des méthodes utilisées. L'objectif est de valider les affirmations théoriques par des preuves pratiques, assurant ainsi une compréhension approfondie et pragmatique de la gestion des expériences dans MLflow.
 
-## Les sources dont au moins un article sur lesquels vous pensez vous baser pour répondre à la question.
+## Les sources dont au moins un article sur lesquels vous pensez vous baser pour répondre à la question. Les articles proposés se trouvent dans le sujet lui-même et sur moodle, d'autres sont possibles après consultation des encadreurs.
 
 - **Documentation Officielle de MLflow** :  La documentation officielle est une ressource intéressante pour comprendre en profondeur les fonctionnalités et les mécanismes internes de MLflow. Elle offre des explications détaillées, des guides d'utilisation, et des exemples pratiques.
   - [Docs](https://mlflow.org/docs/latest/index.html)
