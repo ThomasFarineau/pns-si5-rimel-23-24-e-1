@@ -36,7 +36,7 @@ Ces sous-questions et KPI visent à évaluer en détail l'efficacité de MLflow 
 ## La démarche prévue
 La démarche prévue consiste en une série d'analyses et de tests pratiques. Premièrement, une exploration documentaire du fonctionnement interne de MLflow, en particulier sur sa gestion des expériences, sera effectuée. Cette analyse inclura l'examen de la documentation officielle de MLflow et des articles académiques pertinents. Ensuite, des tests pratiques seront menés pour évaluer comment MLflow gère le stockage des données, le suivi des métriques, et assure la reproductibilité des expériences. Ces tests impliquent la mise en œuvre de diverses expériences de machine learning en utilisant MLflow, suivies d'une évaluation de la performance des outils et des méthodes utilisées. L'objectif est de valider les affirmations théoriques par des preuves pratiques, assurant ainsi une compréhension approfondie et pragmatique de la gestion des expériences dans MLflow.
 
-## Les sources dont au moins un article sur lesquels vous pensez vous baser pour répondre à la question. Les articles proposés se trouvent dans le sujet lui-même et sur moodle, d'autres sont possibles après consultation des encadreurs.
+## Les sources dont au moins un article sur lesquels vous pensez vous baser pour répondre à la question.
 
 - **Documentation Officielle de MLflow** :  La documentation officielle est une ressource intéressante pour comprendre en profondeur les fonctionnalités et les mécanismes internes de MLflow. Elle offre des explications détaillées, des guides d'utilisation, et des exemples pratiques.
   - [Docs](https://mlflow.org/docs/latest/index.html)
