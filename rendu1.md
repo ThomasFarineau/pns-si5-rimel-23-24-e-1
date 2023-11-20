@@ -3,9 +3,13 @@
 **Groupe 2 - Sujet 1**
 
 Thomas FARINEAU
+
 Léo KITABADJIAN
+
 Ludovic BAILET
+
 Mohamed MAHJOUB
+
 
 ## La question générale & pourquoi vous la trouvez intéressante
 La question générale porte sur la gestion des expériences dans MLflow. Cette question est particulièrement intéressante car elle touche au cœur de MLOps, explorant comment l'intégration et la gestion efficace des expériences de machine learning peuvent améliorer la qualité, la rapidité et la fiabilité du développement des modèles. En comprenant mieux cette gestion, nous pouvons déduire des pratiques optimales pour la conduite d'expériences en machine learning, essentielles pour toute avancée significative dans ce domaine. Cette compréhension est cruciale pour les organisations cherchant à adopter des pratiques de MLOps pour accélérer et fiabiliser leurs projets d'apprentissage automatique.
