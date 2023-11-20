@@ -2,7 +2,7 @@
 \vspace*{\fill}
 \begin{center}
 
-\Huge Rendu \\[0.5em]
+\Huge Voici notre projet \\[0.5em]
 \Large Rétro-ingénierie, maintenance et évolution des logiciels\\[2em]
 \LARGE \textbf{Groupe E - Sujet 1} \\[0.5em]
 \Large \textbf{26/11/2023} \\[1em]  % Augmente la taille et ajoute un espace vertical après la date
