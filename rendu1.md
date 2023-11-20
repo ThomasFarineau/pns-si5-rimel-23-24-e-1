@@ -11,7 +11,7 @@ Mohamed MAHJOUB<br>
 ## La question générale & pourquoi vous la trouvez intéressante
 La question générale porte sur la gestion des expériences dans MLflow. Cette question est particulièrement intéressante car elle touche au cœur de MLOps, explorant comment l'intégration et la gestion efficace des expériences de machine learning peuvent améliorer la qualité, la rapidité et la fiabilité du développement des modèles. En comprenant mieux cette gestion, nous pouvons déduire des pratiques optimales pour la conduite d'expériences en machine learning, essentielles pour toute avancée significative dans ce domaine. Cette compréhension est cruciale pour les organisations cherchant à adopter des pratiques de MLOps pour accélérer et fiabiliser leurs projets d'apprentissage automatique.
 
-### Une première décomposition en sous-questions et les métriques/KPI/outils **envisagés** pour y répondre
+## Une première décomposition en sous-questions et les métriques/KPI/outils **envisagés** pour y répondre
 
 Pour explorer la gestion des expériences dans MLflow, la question se décompose en sous-questions :
 
@@ -48,4 +48,4 @@ La démarche prévue consiste en une série d'analyses et de tests pratiques. Pr
 	- [Slack](https://go.mlflow.org/slack)
 
 ## Les sources (codes, données, ...) que vous pensez exploiter.
-- [Topic ]https://github.com/topics/mlflow-projects
+- [Topic MLFlow](https://github.com/topics/mlflow-projects)
