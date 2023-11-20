@@ -1,4 +1,5 @@
 
+
 # Rendu 1
 **Groupe E - Sujet 1**
 
@@ -35,15 +36,16 @@ KPI/Outils : Taux de réussite de reproductibilité (pourcentage d'expériences 
 
 Ces sous-questions et KPI visent à évaluer en détail l'efficacité de MLflow dans la gestion des expériences de ML, en se concentrant sur la reproductibilité et la traçabilité, des éléments clés pour les pratiques de MLOps.
 ## La démarche prévue
-1. **Analyse Documentaire Approfondie** : Commencer par une analyse exhaustive de la documentation officielle de MLflow, des articles académiques, et des études de cas disponibles pour obtenir une compréhension théorique solide de la gestion des expériences dans MLflow. Cette phase inclurait également l'examen des contributions communautaires et des discussions sur des forums spécialisés pour saisir les pratiques actuelles et les défis rencontrés par les utilisateurs.
+1. **Analyse de la documentation approfondie** : Commencer par une analyse exhaustive de la documentation officielle de MLflow, des articles académiques, et des études de cas disponibles pour obtenir une compréhension théorique solide de la gestion des expériences dans MLflow. Cette phase inclurait également l'examen des contributions communautaires et des discussions sur des forums spécialisés pour saisir les pratiques actuelles et les défis rencontrés par les utilisateurs.
+	- Analyse de l'existant sur les topics github disponible en publique. 
 
-2. **Développement de Cas d'Utilisation** : Créer des scénarios d'utilisation spécifiques reflétant différents aspects de la gestion des expériences dans MLflow. Cela aiderait à tester la plateforme dans des conditions réelles, en mettant l'accent sur le stockage des données, le suivi des métriques, et la reproductibilité.
+2. **Développement de cas d'utilisation** : Créer des scénarios d'utilisation spécifiques reflétant différents aspects de la gestion des expériences dans MLflow. Cela aiderait à tester la plateforme dans des conditions réelles, en mettant l'accent sur le stockage des données, le suivi des métriques, et la reproductibilité.
 
-3. **Tests Pratiques et Évaluation des Outils** : Mettre en œuvre les scénarios développés dans MLflow, en suivant de près la performance des outils et des méthodes utilisées. Cela inclurait des tests de reproductibilité, des audits de traçabilité, et une évaluation de l'efficacité du stockage.
+3. **Tests pratiques et évaluation des outils** : Mettre en œuvre les scénarios développés dans MLflow, en suivant de près la performance des outils et des méthodes utilisées. Cela inclurait des tests de reproductibilité, des audits de traçabilité, et une évaluation de l'efficacité du stockage.
 
-4. **Comparaison avec les Standards de MLOps** : Confronter les résultats obtenus avec les standards de MLOps pour évaluer l'alignement de MLflow avec les meilleures pratiques de l'industrie.
+4. **Comparaison avec les standards de MLOps** : Confronter les résultats obtenus avec les standards de MLOps pour évaluer l'alignement de MLflow avec les meilleures pratiques de l'industrie.
 
-5. **Synthèse et Recommandations** : Rassembler les conclusions des différentes phases pour former une compréhension globale de la gestion des expériences dans MLflow, et formuler des recommandations pour son utilisation optimale dans des contextes MLOps divers.
+5. **Synthèse et recommandations** : Rassembler les conclusions des différentes phases pour former une compréhension globale de la gestion des expériences dans MLflow, et formuler des recommandations pour son utilisation optimale dans des contextes MLOps divers.
 ## Les sources dont au moins un article sur lesquels vous pensez vous baser pour répondre à la question.
 
 - **Documentation Officielle de MLflow** :  La documentation officielle est une ressource intéressante pour comprendre en profondeur les fonctionnalités et les mécanismes internes de MLflow. Elle offre des explications détaillées, des guides d'utilisation, et des exemples pratiques.
