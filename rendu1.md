@@ -3,7 +3,7 @@
 **Groupe 2 - Sujet 1**
 
 Thomas FARINEAU<br>
-Léo KITABADJIAN<br>
+Léo KITABDJIAN<br>
 Ludovic BAILET<br>
 Mohamed MAHJOUB<br>
 
