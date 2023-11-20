@@ -1,9 +1,10 @@
 
+
 # Rendu 1
 **Groupe 2 - Sujet 1**
 
 Thomas FARINEAU<br>
-Léo KITABDJIAN<br>
+Léo KITABADJIAN<br>
 Ludovic BAILET<br>
 Mohamed MAHJOUB<br>
 
@@ -33,7 +34,6 @@ La démarche prévue consiste en une série d'analyses et de tests pratiques. Pr
   - [Docs](https://mlflow.org/docs/latest/index.html)
   - [GitHub](https://github.com/mlflow/mlflow)
 
-
 - **Articles académiques et de recherche** : Des articles provenant de Moodle et d'autres bases de données académiques fournissent une analyse théorique et des études de cas sur l'utilisation de MLflow, ses meilleures pratiques, et ses spécificités techniques.
   - Moodle:
 	  - ieee_mlflow.pdf [Disponible Ici](https://people.eecs.berkeley.edu/~matei/papers/2018/ieee_mlflow.pdf)
@@ -48,4 +48,4 @@ La démarche prévue consiste en une série d'analyses et de tests pratiques. Pr
 	- [Slack](https://go.mlflow.org/slack)
 
 ## Les sources (codes, données, ...) que vous pensez exploiter.
-- https://github.com/topics/mlflow-projects
+- [Topic ]https://github.com/topics/mlflow-projects
