@@ -1,3 +1,4 @@
+
 # Rendu 1
 **Groupe E - Sujet 1**
 
@@ -26,16 +27,23 @@ KPI/Outils : Capacité de stockage (volume de données gérées), efficacité du
 2. **Suivi des métriques et paramètres** : Comment MLflow suit-il les métriques et paramètres des expériences ?<br>
 KPI/Outils : Précision du suivi (exactitude des données enregistrées), intégrité des données (cohérence et complétude des données).
 
-3. **Reproductibilité des expériences** : La reproductibilité des expériences est-elle assurée par MLflow ?<br>
-KPI/Outils : Taux de réussite de reproductibilité (pourcentage d'expériences reproduites avec succès), facilité de reconfiguration (temps et effort nécessaires pour répéter une expérience).
-
-4. **Traçabilité des expériences** : MLFlow garantit-il une traçabilité des expériences ?<br>
+3. **Traçabilité des expériences** : MLFlow garantit-il une traçabilité des expériences ?<br>
 KPI/Outils : Traçabilité des modifications (capacité à suivre les changements dans les expériences), transparence des processus (clarté dans la documentation des expériences), historique des versions (gestion et accessibilité de l'historique des expériences et des modèles).
+
+4. **Reproductibilité des expériences** : La reproductibilité des expériences est-elle assurée par MLflow ?<br>
+KPI/Outils : Taux de réussite de reproductibilité (pourcentage d'expériences reproduites avec succès), facilité de reconfiguration (temps et effort nécessaires pour répéter une expérience).
 
 Ces sous-questions et KPI visent à évaluer en détail l'efficacité de MLflow dans la gestion des expériences de ML, en se concentrant sur la reproductibilité et la traçabilité, des éléments clés pour les pratiques de MLOps.
 ## La démarche prévue
-La démarche prévue consiste en une série d'analyses et de tests pratiques. Premièrement, une exploration documentaire du fonctionnement interne de MLflow, en particulier sur sa gestion des expériences, sera effectuée. Cette analyse inclura l'examen de la documentation officielle de MLflow et des articles académiques pertinents. Ensuite, des tests pratiques seront menés pour évaluer comment MLflow gère le stockage des données, le suivi des métriques, et assure la reproductibilité des expériences. Ces tests impliquent la mise en œuvre de diverses expériences de machine learning en utilisant MLflow, suivies d'une évaluation de la performance des outils et des méthodes utilisées. L'objectif est de valider les affirmations théoriques par des preuves pratiques, assurant ainsi une compréhension approfondie et pragmatique de la gestion des expériences dans MLflow.
+1. **Analyse Documentaire Approfondie** : Commencer par une analyse exhaustive de la documentation officielle de MLflow, des articles académiques, et des études de cas disponibles pour obtenir une compréhension théorique solide de la gestion des expériences dans MLflow. Cette phase inclurait également l'examen des contributions communautaires et des discussions sur des forums spécialisés pour saisir les pratiques actuelles et les défis rencontrés par les utilisateurs.
 
+2. **Développement de Cas d'Utilisation** : Créer des scénarios d'utilisation spécifiques reflétant différents aspects de la gestion des expériences dans MLflow. Cela aiderait à tester la plateforme dans des conditions réelles, en mettant l'accent sur le stockage des données, le suivi des métriques, et la reproductibilité.
+
+3. **Tests Pratiques et Évaluation des Outils** : Mettre en œuvre les scénarios développés dans MLflow, en suivant de près la performance des outils et des méthodes utilisées. Cela inclurait des tests de reproductibilité, des audits de traçabilité, et une évaluation de l'efficacité du stockage.
+
+4. **Comparaison avec les Standards de MLOps** : Confronter les résultats obtenus avec les standards de MLOps pour évaluer l'alignement de MLflow avec les meilleures pratiques de l'industrie.
+
+5. **Synthèse et Recommandations** : Rassembler les conclusions des différentes phases pour former une compréhension globale de la gestion des expériences dans MLflow, et formuler des recommandations pour son utilisation optimale dans des contextes MLOps divers.
 ## Les sources dont au moins un article sur lesquels vous pensez vous baser pour répondre à la question.
 
 - **Documentation Officielle de MLflow** :  La documentation officielle est une ressource intéressante pour comprendre en profondeur les fonctionnalités et les mécanismes internes de MLflow. Elle offre des explications détaillées, des guides d'utilisation, et des exemples pratiques.
