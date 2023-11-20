@@ -1,5 +1,3 @@
-
-
 # Rendu 1
 **Groupe E - Sujet 1**
 
@@ -22,16 +20,16 @@ L'étude de la gestion des expériences par MLflow est particulièrement captiva
 
 Pour approfondir la gestion des expériences dans MLflow, nous pouvons décomposer la question principale en sous-questions spécifiques, tout en se concentrant sur des KPI (Key Performance Indicators) et outils spécifiques :
 
-1. **Stockage des Informations** : Quelles, comment et où les données d'expérience sont-elles stockées dans MLflow ?
+1. **Stockage des Informations** : Quelles, comment et où les données d'expérience sont-elles stockées dans MLflow ?<br>
 KPI/Outils : Capacité de stockage (volume de données gérées), efficacité du stockage (temps d'accès aux données).
 
-2. **Suivi des métriques et paramètres** : Comment MLflow suit-il les métriques et paramètres des expériences ?
+2. **Suivi des métriques et paramètres** : Comment MLflow suit-il les métriques et paramètres des expériences ?<br>
 KPI/Outils : Précision du suivi (exactitude des données enregistrées), intégrité des données (cohérence et complétude des données).
 
-3. **Reproductibilité des expériences** : La reproductibilité des expériences est-elle assurée par MLflow ?
+3. **Reproductibilité des expériences** : La reproductibilité des expériences est-elle assurée par MLflow ?<br>
 KPI/Outils : Taux de réussite de reproductibilité (pourcentage d'expériences reproduites avec succès), facilité de reconfiguration (temps et effort nécessaires pour répéter une expérience).
 
-4. **Traçabilité des expériences** : MLFlow garantit-il une traçabilité des expériences ?
+4. **Traçabilité des expériences** : MLFlow garantit-il une traçabilité des expériences ?<br>
 KPI/Outils : Traçabilité des modifications (capacité à suivre les changements dans les expériences), transparence des processus (clarté dans la documentation des expériences), historique des versions (gestion et accessibilité de l'historique des expériences et des modèles).
 
 Ces sous-questions et KPI visent à évaluer en détail l'efficacité de MLflow dans la gestion des expériences de ML, en se concentrant sur la reproductibilité et la traçabilité, des éléments clés pour les pratiques de MLOps.
