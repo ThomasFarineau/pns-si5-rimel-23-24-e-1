@@ -1,7 +1,7 @@
 
 
 # Rendu 1
-**Groupe 2 - Sujet 1**
+**Groupe E - Sujet 1**
 
 Thomas FARINEAU<br>
 Léo KITABADJIAN<br>
