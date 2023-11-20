@@ -48,3 +48,4 @@ La démarche prévue consiste en une série d'analyses et de tests pratiques. Pr
 	- [Slack](https://go.mlflow.org/slack)
 
 ## Les sources (codes, données, ...) que vous pensez exploiter.
+- https://github.com/topics/mlflow-projects
