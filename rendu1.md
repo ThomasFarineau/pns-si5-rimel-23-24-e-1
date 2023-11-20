@@ -47,7 +47,7 @@ Ces sous-questions et KPI visent à évaluer en détail l'efficacité de MLflow 
 5. **Synthèse et recommandations** : Enfin, nous rassemblerons nos découvertes pour obtenir une vue d'ensemble de la gestion des expériences dans MLflow et proposerons des recommandations pour son utilisation efficace dans divers contextes MLOps.
 ## Les sources dont au moins un article sur lesquels vous pensez vous baser pour répondre à la question.
 
-- **Documentation Officielle de MLflow** :  La documentation officielle est une ressource intéressante pour comprendre en profondeur les fonctionnalités et les mécanismes internes de MLflow. Elle offre des explications détaillées, des guides d'utilisation, et des exemples pratiques.
+- **Documentation officielle de MLflow** :  La documentation officielle est une ressource intéressante pour comprendre en profondeur les fonctionnalités et les mécanismes internes de MLflow. Elle offre des explications détaillées, des guides d'utilisation, et des exemples pratiques.
   - [Docs](https://mlflow.org/docs/latest/index.html)
   - [GitHub](https://github.com/mlflow/mlflow)
 
@@ -66,3 +66,4 @@ Ces sous-questions et KPI visent à évaluer en détail l'efficacité de MLflow 
 
 ## Les sources (codes, données, ...) que vous pensez exploiter.
 - [Topic MLFlow](https://github.com/topics/mlflow-projects)
+- [GitHub MLFlow](https://github.com/mlflow/mlflow)
