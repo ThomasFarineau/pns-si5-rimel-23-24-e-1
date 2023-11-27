@@ -36,7 +36,15 @@ Gestion du Cycle de Vie des Modèles ML : MLflow permet de gérer efficacement l
 Qualité et Fiabilité des Solutions ML : L'utilisation de MLflow assure une meilleure qualité et fiabilité des solutions de ML déployées.  
 
 ### 3. Gestion des Expériences avec MLflow
-L'étude de la gestion des expériences par MLflow est particulièrement captivante, car elle aborde un défi clé du ML : la gestion systématique et efficace des cycles d'expérimentation. MLflow offre des solutions pour tracer, documenter et comparer les différentes étapes du développement de modèles ML, y compris le suivi des paramètres, des métriques, des résultats et des versions de modèles. Comprendre comment MLflow facilite ces processus permet d'améliorer la reproductibilité et la traçabilité des projets ML et d'optimiser la collaboration entre les équipes de développement et de données.
+Gestion des Cycles d'Expérimentation en ML : MLflow aborde le défi de la gestion systématique et efficace des cycles d'expérimentation dans le Machine Learning (ML).  
+
+Solutions Offertes par MLflow :  
+
+Traçage et Documentation : MLflow permet de tracer et de documenter les différentes étapes du développement de modèles ML.  
+Suivi des Éléments Clés : Il facilite le suivi des paramètres, des métriques, des résultats et des versions de modèles.  
+Amélioration de la Reproductibilité et Traçabilité : L'utilisation de MLflow dans les projets ML améliore la reproductibilité et la traçabilité.  
+
+Optimisation de la Collaboration : MLflow aide à optimiser la collaboration entre les équipes de développement et de données.  
 
 ## Une première décomposition en sous-questions et les métriques/KPI/outils **envisagés** pour y répondre
 
