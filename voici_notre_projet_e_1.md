@@ -46,6 +46,12 @@ Amélioration de la Reproductibilité et Traçabilité : L'utilisation de MLflow
 
 Optimisation de la Collaboration : MLflow aide à optimiser la collaboration entre les équipes de développement et de données.  
 
+### 4. Ce qui nous intéresse
+Intégration du DevOps et du Machine Learning : Le concept d'intégrer le DevOps dans le machine learning est intéressant, car il crée un lien entre deux domaines de l'ingénierie informatique habituellement considérés comme éloignés.  
+Suivi Structuré des Expériences : L'outil MLflow propose un suivi des expériences bien structuré, ce qui est particulièrement pertinent étant donné que la programmation d'IA peut souvent manquer de structure.  
+Approche Méthodique avec MLflow : MLflow facilite une approche plus méthodique dans le développement et la gestion des projets de machine learning.  
+Impact sur la Qualité et la Fiabilité : MLflow est susceptible d'avoir un impact significatif sur la qualité et la fiabilité des projets de ML, en particulier dans des domaines où ces aspects sont essentiels, comme la santé et la finance.  
+
 ## Une première décomposition en sous-questions et les métriques/KPI/outils **envisagés** pour y répondre
 
 Pour approfondir la gestion des expériences dans MLflow, nous pouvons décomposer la question principale en sous-questions spécifiques, tout en se concentrant sur des KPI (Key Performance Indicators) et outils spécifiques :
