@@ -78,15 +78,11 @@ Ces sous-questions et KPI visent à évaluer en détail l'efficacité de MLflow 
 
 ## La démarche prévue
 
-1. **Exploration initiale de la documentation et des existants** : Nous débuterons par une immersion dans la documentation officielle de MLflow et des articles académiques pour construire une base théorique solide. En parallèle, nous explorerons les contributions de la communauté pour saisir les utilisations réelles et les défis rencontrés par les utilisateurs de MLflow (notamment grâce au topic GitHub disponible).
-
-2. **Développement de cas d'utilisation** : Nous développerons des scénarios d'utilisation reflétant divers aspects de la gestion des expériences dans MLflow, en mettant l'accent sur le stockage des données, le suivi des métriques, et la reproductibilité.
-
-3. **Tests pratiques et évaluation des outils** : Nous confronterons nos résultats aux standards de MLOps pour évaluer l'adéquation de MLflow avec les meilleures pratiques du secteur.
-
-4. **Comparaison avec les standards de MLOps** : Confronter les résultats obtenus avec les standards de MLOps pour évaluer l'alignement de MLflow avec les meilleures pratiques de l'industrie.
-
-5. **Synthèse et recommandations** : Enfin, nous rassemblerons nos découvertes pour obtenir une vue d'ensemble de la gestion des expériences dans MLflow et proposerons des recommandations pour son utilisation efficace dans divers contextes MLOps.
+1. **Exploration initiale de la documentation et des existants** : Nous débuterons par une immersion dans la documentation officielle de MLflow et des articles académiques pour construire une base théorique solide. En parallèle, nous explorerons les contributions de la communauté pour saisir les utilisations réelles et les défis rencontrés par les utilisateurs de MLflow (notamment grâce au topic GitHub disponible).  
+2. **Développement de cas d'utilisation** : Nous développerons des scénarios d'utilisation reflétant divers aspects de la gestion des expériences dans MLflow, en mettant l'accent sur le stockage des données, le suivi des métriques, et la reproductibilité.  
+3. **Tests pratiques et évaluation des outils** : Nous confronterons nos résultats aux standards de MLOps pour évaluer l'adéquation de MLflow avec les meilleures pratiques du secteur.  
+4. **Comparaison avec les standards de MLOps** : Confronter les résultats obtenus avec les standards de MLOps pour évaluer l'alignement de MLflow avec les meilleures pratiques de l'industrie.  
+5. **Synthèse** : Enfin, nous rassemblerons nos découvertes pour obtenir une vue d'ensemble de la gestion des expériences dans MLflow.  
 
 ## Les sources dont au moins un article sur lesquels vous pensez vous baser pour répondre à la question.
 
