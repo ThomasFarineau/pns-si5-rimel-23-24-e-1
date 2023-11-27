@@ -24,3 +24,7 @@ A lier avec les informations tracées, mentionnées précédemment
 #### Traçabilité
 - Nouveaux acteurs dans le système
 - Rétrospective, suivi d'évolution
+### Critères de validation
+#### Cas concrets d'utilisation
+- Tutoriels
+- Projets existants
