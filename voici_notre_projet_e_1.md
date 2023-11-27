@@ -32,7 +32,7 @@
 **Amélioration de la Reproductibilité et Efficacité** : MLflow facilite une meilleure reproductibilité et efficacité dans le développement des modèles ML.  
 **Favoriser la Collaboration entre Équipes** : MLflow améliore la collaboration entre les équipes travaillant sur des projets de ML.  
 **Transformation des Pratiques de ML** : Avec MLflow, les pratiques de ML deviennent plus systématiques et alignées avec les principes de MLOps.  
-**Gestion du Cycle de Vie des Modèles ML** : MLflow permet de gérer efficacement le cycle de vie complet des modèles ML, depuis leur conception jusqu'à leur déploiement et maintenance. (HORS SUJET???) 
+**Gestion du Cycle de Vie des Modèles ML** : MLflow permet de gérer efficacement le cycle de vie complet des modèles ML, depuis leur conception jusqu'à leur déploiement et maintenance. (HORS SUJET???)  
 **Qualité et Fiabilité des Solutions ML** : L'utilisation de MLflow assure une meilleure qualité et fiabilité des solutions de ML déployées.  
 
 ### 3. Gestion des Expériences avec MLflow
