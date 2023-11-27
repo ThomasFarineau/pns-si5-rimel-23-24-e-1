@@ -19,13 +19,13 @@
 ## La question générale & pourquoi vous la trouvez intéressante
 
 ### 1. Signification et Impact de MLflow dans le Machine Learning
-Évolution de MLflow : MLflow va au-delà d'un simple outil de Machine Learning (ML), évoluant vers une approche plus structurée et systématique pour la gestion des processus de ML. 
-Importance dans l'Expérimentation et l'Itération : L'expérimentation et l'itération sont essentielles dans le domaine du ML, et la capacité de MLflow à tracer rigoureusement les expériences est vitale pour comprendre les variations de performance et les ajustements des modèles. 
-Fonctionnalités de MLflow : MLflow offre un cadre pour le suivi des expériences, la gestion des modèles, et l'orchestration des workflows. 
-Application dans Divers Secteurs (quelques exemples) : 
-Santé : Utilisé pour la prédiction de maladies et l'analyse d'images médicales. 
-Secteur Financier : Employé pour la détection de fraudes et la gestion des risques. 
-Commerce de Détail : Aide à personnaliser l'expérience client et à optimiser les chaînes d'approvisionnement. 
+Évolution de MLflow : MLflow va au-delà d'un simple outil de Machine Learning (ML), évoluant vers une approche plus structurée et systématique pour la gestion des processus de ML.  
+Importance dans l'Expérimentation et l'Itération : L'expérimentation et l'itération sont essentielles dans le domaine du ML, et la capacité de MLflow à tracer rigoureusement les expériences est vitale pour comprendre les variations de performance et les ajustements des modèles.  
+Fonctionnalités de MLflow : MLflow offre un cadre pour le suivi des expériences, la gestion des modèles, et l'orchestration des workflows.  
+Application dans Divers Secteurs (quelques exemples) :  
+Santé : Utilisé pour la prédiction de maladies et l'analyse d'images médicales.  
+Secteur Financier : Employé pour la détection de fraudes et la gestion des risques.  
+Commerce de Détail : Aide à personnaliser l'expérience client et à optimiser les chaînes d'approvisionnement.  
 
 ### 2. Rationalisation du Développement des Modèles
 L'intégration de MLflow dans les projets de ML permet aux organisations de rationaliser le développement de leurs modèles. En facilitant une meilleure reproductibilité, efficacité et collaboration entre les équipes, MLflow transforme les pratiques de ML, les rendant plus systématiques et alignées avec les principes de MLOps. Cela permet de gérer plus efficacement le cycle de vie complet des modèles de ML, depuis leur conception jusqu'à leur déploiement et maintenance, assurant ainsi une meilleure qualité et fiabilité des solutions de ML déployées.
