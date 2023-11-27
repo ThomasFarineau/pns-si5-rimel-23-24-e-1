@@ -53,14 +53,23 @@
 
 Pour approfondir la gestion des expériences dans MLflow, nous pouvons décomposer la question principale en sous-questions spécifiques, tout en se concentrant sur des KPI (Key Performance Indicators) et outils spécifiques :
 
-1. **Stockage des Informations** : Quelles, comment et où les données d'expérience sont-elles stockées dans MLflow ?  
-KPI/Outils : Capacité de stockage (volume de données gérées), efficacité du stockage (temps d'accès aux données).
+1. **Stockage des Informations** : Quelles sont les données d'expérience stockées dans MLflow, comment et où sont-elles stockées ?
+   - KPI/Outils : Capacité de stockage (volume de données gérées), efficacité du stockage (temps d'accès aux données).
+     - **Nature et Méthodes de Stockage** : Comment MLflow stocke-t-il les données et quelles sont les méthodes utilisées ?
+     - **Capacité et Efficacité du Stockage** : Quelle quantité de données MLflow peut-il gérer et comment accède-t-il rapidement aux données ?
+     - **Impact sur la Collaboration et la Reproductibilité** : Comment le stockage dans MLflow aide-t-il à la collaboration et à la reproductibilité des expériences ?
 
 2. **Suivi des métriques et paramètres** : Comment MLflow suit-il les métriques et paramètres des expériences ?  
-KPI/Outils : Précision du suivi (exactitude des données enregistrées), intégrité des données (cohérence et complétude des données).
+   - KPI/Outils : Précision du suivi (exactitude des données enregistrées), intégrité des données (cohérence et complétude des données).
+     - **Comment MLflow fait le suivi** : Comment fonctionne le suivi des métriques et paramètres dans MLflow ?
+     - **Vérifier la Précision** : Comment vérifier que les données enregistrées par MLflow sont précises ?
+     - **Assurer l'Intégrité des Données** : Comment MLflow s'assure que les données sont complètes et cohérentes ?
+     - **Métriques Clés à Suivre** : Quelles sont les métriques importantes à surveiller dans MLflow ?
+     - **Ajouter des Métriques Personnalisées** : Est-il possible d'ajouter des métriques personnalisées dans MLflow ?
+     - **Efficacité de la Mémorisation** : Quelles métriques MLflow enregistre-t-il bien et pourquoi sont-elles importantes ?
 
 3. **Traçabilité des expériences** : MLFlow garantit-il une traçabilité des expériences ?  
-KPI/Outils : Traçabilité des modifications (capacité à suivre les changements dans les expériences), transparence des processus (clarté dans la documentation des expériences), historique des versions (gestion et accessibilité de l'historique des expériences et des modèles).
+KPI/Outils : Traçabilité des modifications (capacité à suivre les changements dans les expériences), transparence des processus (clarté dans la documentation des expériences), historique des versions (gestion et accessibilité de l'historique des expériences (pas des modèles).
 
 4. **Reproductibilité des expériences** : La reproductibilité des expériences est-elle assurée par MLflow ?  
 KPI/Outils : Taux de réussite de reproductibilité (pourcentage d'expériences reproduites avec succès), facilité de reconfiguration (temps et effort nécessaires pour répéter une expérience).
