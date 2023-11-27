@@ -37,7 +37,7 @@
 
 ### 3. Gestion des Expériences avec MLflow
 **Gestion des Cycles d'Expérimentation en ML** : MLflow aborde le défi de la gestion systématique et efficace des cycles d'expérimentation dans le Machine Learning (ML).  
-**Solutions Offertes par MLflow :  **
+**Solutions Offertes par MLflow** :  
 - **Traçage et Documentation** : MLflow permet de tracer et de documenter les différentes étapes du développement de modèles ML.  
 - **Suivi des Éléments Clés** : Il facilite le suivi des paramètres, des métriques, des résultats et des versions de modèles.  
 - **Amélioration de la Reproductibilité et Traçabilité** : L'utilisation de MLflow dans les projets ML améliore la reproductibilité et la traçabilité.  
