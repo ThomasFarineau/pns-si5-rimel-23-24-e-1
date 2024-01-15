@@ -48,19 +48,23 @@ Attention pour répondre à cette question, vous devrez être capable d'émettre
 
 #### Comment MLFlow permet de gérer la traçabilité ainsi que la reproductibilité des expériences ?
 
-### Définitions de traçabilité et reproductibilité
-- Traçabilité :
-- Reproductibilité : 
-
 ### Lien avec les principes DevOps
 - Versioning
 - Logging
-- CI
+- CI (Hypothèse : Peu probable car trop coûteux)
 
 ### Intérêt de la question
 - Emergence de MLOps
 - La capacité à retracer et centraliser des expériences qui peuvent être nombreuses et issues de plusieurs collaborateurs
 - La notion de reproductibilité, qui dans le contexte de machine learning paraît complexe donc intéressant de creuser comment MLFlow s'y prend
+
+_Quels sont les principes nécessaires à la traçabilité des expériences de ML et s'inscrivent-ils dans une logique de reproductibilité des expériences ?_
+**Quels sont les besoins liés à la traçabilité des expériences de ML ?**
+_Quels sont les principes DevOps utilisés pour tracer les expériences de ML et y en a-t-il d'autres ?_
+
+### Définitions de traçabilité et reproductibilité
+- Traçabilité :
+- Reproductibilité : 
 
      :bulb: Cette première étape nécessite beaucoup de réflexion pour définir la bonne question qui permet de diriger la suite de vos travaux.
 
@@ -96,8 +100,8 @@ Voici quelques pistes :
 
 - Versions de code
 - Paramètres
-- Environnement
-- Dépendances
+- Environnement (Containers...)
+- Dépendances (Mettre l'accent, nécessaire de les avoir tout le long de la chaîne)
 
 Réponse grâce à la documentation de MLFlow
 
@@ -113,7 +117,7 @@ Réponse grâce à la documentation de MLFlow
 
 Script analysant les repos pour chercher la présence d'enregistrement de ces données, afin de faire des stats
 
-### Reproductibilité 
+### Reproductibilité / Executabilité
 
 Ces informations vont nous permettre de relancer une expérience (issue d'un repo git par exemple)
 
@@ -126,6 +130,11 @@ Malheureusement on ne peut pas pousser plus loin la reproductibilité car cela n
 1. Présentation des résultats
 2. Interprétation/Analyse des résultats en fonction de vos hypothèses
 3. Construction d’une conclusion 
+
+Les besoins sont-ils les mêmes que ceux que l'on avait envisagés ? 
+Sont-ils pertinents (statistiques) ?
+Prise de recul sur la seule utilisation de MLFlow (potentiellement d'autres non pris en compte par MLFlow)
+
 
      :bulb:  Vos résultats et donc votre analyse sont nécessairement limités. Préciser bien ces limites : par exemple, jeux de données insuffisants, analyse réduite à quelques critères, dépendance aux projets analysés, ...
 
