@@ -44,6 +44,24 @@ La question générale porte sur la gestion des expériences dans MLflow. Cette 
 
 Attention pour répondre à cette question, vous devrez être capable d'émettre des hypothèses vérifiables, de quantifier vos réponses, ...
 
+### Question générale
+
+#### Comment MLFlow permet de gérer la traçabilité ainsi que la reproductibilité des expériences ?
+
+### Définitions de traçabilité et reproductibilité
+- Traçabilité :
+- Reproductibilité : 
+
+### Lien avec les principes DevOps
+- Versioning
+- Logging
+- CI
+
+### Intérêt de la question
+- Emergence de MLOps
+- La capacité à retracer et centraliser des expériences qui peuvent être nombreuses et issues de plusieurs collaborateurs
+- La notion de reproductibilité, qui dans le contexte de machine learning paraît complexe donc intéressant de creuser comment MLFlow s'y prend
+
      :bulb: Cette première étape nécessite beaucoup de réflexion pour définir la bonne question qui permet de diriger la suite de vos travaux.
 
 ## III. Information gathering
@@ -55,6 +73,9 @@ Voici quelques pistes :
 1. les articles ou documents utiles à votre projet 
 2. les outils que vous souhaitez utiliser
 3. les jeux de données/codes que vous allez utiliser, pourquoi ceux-ci, ...
+
+- Doc de MLFlow
+- Repos Git utilisant MLFlow et disposant d'informations publiques
 
      :bulb: Cette étape est fortement liée à la suivante. Vous ne pouvez émettre d'hypothèses à vérifier que si vous avez les informations. inversement, vous cherchez à recueillir des informations en fonction de vos hypothèses. 
  
@@ -71,6 +92,34 @@ Voici quelques pistes :
         
         ou Vous présentez l'ensemble des hypothèses puis vous expliquer comment les expériences prévues permettront de démontrer vos hypothèses.
 
+### Informations stockées par MLFlow
+
+- Versions de code
+- Paramètres
+- Environnement
+- Dépendances
+
+Réponse grâce à la documentation de MLFlow
+
+### Centralisation des informations stockées
+
+- Serveur de base de données commun
+
+Réponse grâce à la documentation de MLFlow
+
+### Statistiques d'utilisation
+
+- En fonction des résultats des informations stockées, les utilisateurs d'MLFlow utilisent ces fonctionnalités
+
+Script analysant les repos pour chercher la présence d'enregistrement de ces données, afin de faire des stats
+
+### Reproductibilité 
+
+Ces informations vont nous permettre de relancer une expérience (issue d'un repo git par exemple)
+
+Nous allons cloner un repo git public disposant de toutes les informations et tenter de reproduire l'expérience
+
+Malheureusement on ne peut pas pousser plus loin la reproductibilité car cela nécessiterait des tests statistiques un peu trop complexes et nocifs à notre planète (que les allemands s'occupent déjà à détruire avec leur charbon)
 
 ## V. Result Analysis and Conclusion
 
