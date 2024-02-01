@@ -24,10 +24,10 @@ date:   2023-11
 
 We are four students in M2 or in last year of Polytech' Nice-Sophia specialized in Software Architecture :
 
-* thomas.farineau@etu.univ-cotedazur.fr
-* leo.kitabdjian@etu.univ-cotedazur.fr
-* ludovic.bailet@etu.univ-cotedazur.fr
-* mohamed.mahjoub@etu.univ-cotedazur.fr
+* Thomas Farineau <thomas.farineau@etu.univ-cotedazur.fr>
+* Léo Kitabdjian <leo.kitabdjian@etu.univ-cotedazur.fr>
+* Ludovic Bailet <ludovic.bailet@etu.univ-cotedazur.fr>
+* Mohamed Mahjoub <mohamed.mahjoub@etu.univ-cotedazur.fr>
 
      :bulb: Les chapitres restant accessibles longtemps, si vous le souhaitez, vous pouvez utiliser ici une adresse pérenne pour être contacté ultérieurement.
 
