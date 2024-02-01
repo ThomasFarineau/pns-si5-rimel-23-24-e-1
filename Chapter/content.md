@@ -41,10 +41,8 @@ _Quels sont les principes nécessaires à la traçabilité des expériences de M
 _Quels sont les principes DevOps utilisés pour tracer les expériences de ML et y en a-t-il d'autres ?_
 
 ### Définitions de traçabilité et reproductibilité
-- Traçabilité :
-- Reproductibilité : 
-
-     :bulb: Cette première étape nécessite beaucoup de réflexion pour définir la bonne question qui permet de diriger la suite de vos travaux.
+- Traçabilité : Stocker les données liées aux expériences dans le but de suivre leur évolution, les consulter
+- Reproductibilité : Capacité de reproduire les résultats d'une expérience ou d'une étude en utilisant les mêmes données, méthodes et conditions
 
 ## III. Collecte d'informations
 
