@@ -129,9 +129,11 @@ Exécution de la partie MLFlow du notebook basic experiment
 ![Exécution de la partie MLFlow du notebook basic experiment](./assets/images/basic_experiment.png)
 
 Ainsi, l'observation des métriques, qui se révèlent identiques à chaque test, pourrait nous amener à présumer que la reproductibilité est garantie. Cependant, une attention particulière doit être accordée au jeu de données utilisé. Prenons, par exemple, un [projet de ML utilisant 
-TensorFlow](https://github.com/at0m-b0mb/Mlflow-TensorFlow-Image-Classification-Guide).
+TensorFlow](https://github.com/at0m-b0mb/Mlflow-TensorFlow-Image-Classification-Guide).  
+
 Exécution du notebook complexe experiment
 ![Exécution du notebook complexe experiment](./assets/images/complexe_experiment.png)
+
 Une analyse approfondie, après trois lancements, révèle que les métriques subissent de légères variations.
 Ces facteurs incluent l'initialisation aléatoire des poids dans les modèles de machine learning, la sélection des échantillons lors de la division en ensembles d'entraînement et de test si elle n'est pas contrôlée à 100 %, ainsi que les spécificités de l'environnement d'exécution telles que la version des bibliothèques utilisées, la configuration matérielle, et même l'ordonnancement des opérations par le processeur, qui peut affecter les calculs en virgule flottante.
 
