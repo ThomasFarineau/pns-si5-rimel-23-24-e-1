@@ -76,69 +76,9 @@ On en conclut que MLFlow n’assure aucune reproductibilité dans cette expérie
 
 MLflow, en tant qu'outil, n'est pas conçu pour garantir que les résultats d'une exécution de modèle seront identiques à chaque exécution mais plutôt, c’est de fournir un cadre pour la traçabilité et la gestion du cycle de vie des modèles de machine learning. Il permet aux développeurs de suivre les paramètres, les métriques et les artefacts associés à chaque exécution, facilitant ainsi la comparaison des expériences et la compréhension des conditions sous lesquelles les résultats ont été obtenus.
 
-
-
-___
-
-1. Il s'agit ici d'**énoncer sous forme d'hypothèses** ce que vous allez chercher à démontrer. Vous devez définir vos hypothèses de façon à pouvoir les _mesurer/vérifier facilement._ Bien sûr, votre hypothèse devrait être construite de manière à _vous aider à répondre à votre question initiale_. Explicitez ces différents points.
-2. Vous **explicitez les expérimentations que vous allez mener** pour vérifier si vos hypothèses sont vraies ou fausses. Il y a forcément des choix, des limites, explicitez-les.
-
-   :bulb: Structurez cette partie à votre convenance :   
-   Par exemples :   
-   Pour Hypothèse 1 =>   
-   Nous ferons les Expériences suivantes pour la démontrer  
-   Pour Hypothèse 2 => Expériences
-
-        ou Vous présentez l'ensemble des hypothèses puis vous expliquer comment les expériences prévues permettront de démontrer vos hypothèses.  
-
-### Informations stockées par MLFlow
-
-- Versions de code
-- Paramètres
-- Environnement (Containers...)
-- Dépendances (Mettre l'accent, nécessaire de les avoir tout le long de la chaîne)
-
-Réponse grâce à la documentation de MLFlow
-
-### Centralisation des informations stockées
-
-- Serveur de base de données commun
-
-Réponse grâce à la documentation de MLFlow
-
-### Statistiques d'utilisation
-
-- En fonction des résultats des informations stockées, les utilisateurs d'MLFlow utilisent ces fonctionnalités
-
-Script analysant les repos pour chercher la présence d'enregistrement de ces données, afin de faire des stats
-
-### Reproductibilité / Executabilité
-
-Ces informations vont nous permettre de relancer une expérience (issue d'un repo git par exemple)
-
-Nous allons cloner un repo git public disposant de toutes les informations et tenter de reproduire l'expérience
-
-Malheureusement on ne peut pas pousser plus loin la reproductibilité car cela nécessiterait des tests statistiques un peu trop complexes et nocifs à notre planète (que les allemands s'occupent déjà à détruire avec leur charbon)
-
 ## V. Résultat d'analyse et conclusion
 
-1. Présentation des résultats
-2. Interprétation/Analyse des résultats en fonction de vos hypothèses
-3. Construction d’une conclusion
-
-Les besoins sont-ils les mêmes que ceux que l'on avait envisagés ?   
-Sont-ils pertinents (statistiques) ?  
-Prise de recul sur la seule utilisation de MLFlow (potentiellement d'autres non pris en compte par MLFlow)
-
-
-:bulb:  Vos résultats et donc votre analyse sont nécessairement limités. Préciser bien ces limites : par exemple, jeux de données insuffisants, analyse réduite à quelques critères, dépendance aux projets analysés, ...
-
 ## VI. Outils
-
-Précisez votre utilisation des outils ou les développements \(e.g. scripts\) réalisés pour atteindre vos objectifs. Ce chapitre doit viser à \(1\) pouvoir reproduire vos expérimentations, \(2\) partager/expliquer à d'autres l'usage des outils.
-
-![Figure 1: Logo UCA, exemple, vous pouvez l'enlever](assets/images/logo_uca.png){:height="12px"}
-
 
 ## VI. References
 
