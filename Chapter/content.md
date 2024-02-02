@@ -62,7 +62,7 @@ Cela inclut :
 
 - **Hypothèse 2 :** MFLow permet la centralisation des données de traçabilité.  
 
-Étant donné l’aspect collaboratif qui peut s’appliquer aux projets impliquant du machine learning, nous estimons que MLFlow doit à priori proposer un moyen de centraliser les données liées à la traçabilité des expériences, afin de permettre aux différents collaborateurs d’accéder à ces données et de satisfaire le besoin de collaboration en terme de traçabilité.
+Étant donné l’aspect collaboratif qui peut s’appliquer aux projets impliquant du machine learning, nous estimons que MLFlow doit à priori proposer un moyen de centraliser les données liées à la traçabilité des expériences, afin de permettre aux différents collaborateurs d’accéder à ces données et de satisfaire le besoin de collaboration en termes de traçabilité. MLFow devrait donc proposer un espace de stockage pour ces informations.
 
 - **Hypothèse 3 :** L’enregistrement des données proposé par MLFlow est crucial pour la traçabilité et vastement utilisé.  
   
@@ -129,6 +129,7 @@ Comme nous avons pu le constater, MLFlow ne propose pas directement de solution 
 Cependant, MLFlow met en place un moyen facile pour enregistrer les informations à travers un serveur. L’exécution de notre expérience MLFlow va venir envoyer les métriques récoltées au serveur et ce dernier va venir sauvegarder ces données dans la BD qu’on lui a indiquée.
 
 #### Conclusion de l'expérience
+Les métadonnées utilisées pour la traçabilité des expériences peuvent être stockées en local ou dans une base de données, potentiellement distante. MLFlow ne propose donc pas d’espace de stockage à proprement parler. Cependant, il va venir proposer une interface entre la BD distante et la récolte d’informations de l’expérience, permettant ainsi de répondre à un besoin de collaboration en matière de traçabilité d’expériences de Machine Learning.
 
 ### Experience 3
 #### Présentation des résultats
