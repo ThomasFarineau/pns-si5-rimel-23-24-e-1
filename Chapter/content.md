@@ -173,7 +173,7 @@ Il est important de noter que cette analyse sur les besoins en matière de traç
 ## VI. Outils
 
 - Script d’analyse de projet pour vérifier si les projets MLFlow utilise la traçabilité
-  - [Script](./script/)
+  - [Script](./assets/script/)
 
 
 - Outils utilisés pour l'expérience 1
