@@ -109,7 +109,17 @@ Avec MLflow:
 
 ### Experience 1
 #### Présentation des résultats
+
+Lors de l’analyse de la documentation, nous avons pu trouver que MLFlow est capable de tracer de manière efficace et possiblement automatique les paramètres d’exécution ainsi que les métriques des expériences de machine learning. Ces derniers sont stockés de manière individuelle à chaque expérience. On retrouve aussi les dépendances et librairies utilisées pour générer le modèle. Cependant ces dernières ne sont pas stockées à l’échelle des expériences mais du modèle.
+Cependant, On ne retrouve pas les versions de codes que MLFlow utilisé pour générer les expériences et on retrouve aussi un manque de traçabilité au niveau de l'environnement de la machine utilisateur. 
+
 #### Interprétation des résultats
+Ces résultats nous montrent que MLFlow considère initialement que la traçabilité des paramètres des différentes expériences, leurs métriques et les dépendances et librairies utilisées par les modèles de machine learning est suffisante pour une traçabilité convenable dans le cadre d’un suivi en MLOps.
+Cependant on ne retrouve pas le versionning de code et les informations sur l’environnement de la machine qui sont des informations, selon nous, importantes dans le cadre d’un projet MLOps. Ce manque d’information représente un problème au niveau du traçage des projets fonctionnant à l’aide de MLFlow puisqu’ils peuvent avoir un impact sur le rendu final, le modèle créé. De plus, on remarque que les données que l’on retrouve sur les dépendances ne sont pas orientées de manière individuelle pour chaque expérience mais elles sont indiquées au niveau du modèle, ceci représente un autre danger pour tracer nos expériences de manière individuelle. Nous aurions imaginé que ces informations figurent de bout en bout de la chaîne, et donc, également à l’échelle des expériences.
+
+#### Conclusion de l’expérience
+Comparément à notre hypothèse de départ, on retrouve dans les résultats de notre expérience des données stockées par MLFlow que nous avions prédites telles que les paramètres. En revanche, il y a également des données auxquelles nous n’avions pas pensé telles que les métriques mais aussi des données que nous imaginions être tracées comme les versions de code source utilisées ou bien encore l’environnement de la machine qui ne le sont finalement pas. Enfin, certaines données que nous avions imaginées être tracées le sont effectivement, mais pas à l’échelle des expériences individuelles. Ainsi, on se rend compte que les besoins en termes d’informations stockées diffèrent entre ce que nous imaginions et ce que MLFlow propose, ce qui nous paraît surprenant compte tenu du facteur aléatoire omniprésent dans le domaine du Machine Learning dont nous pensions qu’il forcerait un traçage d’autant plus rigoureux.
+
 
 ### Experience 2
 #### Présentation des résultats
