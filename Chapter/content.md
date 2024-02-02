@@ -80,6 +80,12 @@ MLflow, en tant qu'outil, n'est pas conçu pour garantir que les résultats d'un
 
 ## VI. Outils
 
+- Outils utilisé pour l'expérience 1
+  - [Notebook Jupyter Experiment 1](./assets/basic_experiment.ipynb)
+  - [Notebook Jupyter Experiment 2](./assets/complexe_experiment.ipynb)  
+  Les buts de ces notebooks sont de reproduire facilement les résultats obtenus lors de l'expérience 1.
+
+
 ## VI. References
 
 [Debret 2020] Debret, J. (2020) La démarche scientifique : tout ce que vous devez savoir ! Available at: https://www.scribbr.fr/article-scientifique/demarche-scientifique/ (Accessed: 18 November 2022).
