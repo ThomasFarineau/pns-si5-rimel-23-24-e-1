@@ -123,6 +123,8 @@ Après avoir fait tourner notre script sur les projets du topic GitHub `mlflow-p
 #### Interprétation des résultats
 On se rend compte qu’une majorité écrasante des projets comporte donc les fonctionnalités de traçabilité proposées par MLFlow. Bien que ces projets soient, comme précisé auparavant, des projets pour la plupart scolaires ou d’exemple, cela montre bien que la traçabilité est un aspect considéré comme fondamental par les utilisateurs de MLFlow, ce qui valide notre hypothèse. Ces résultats ne sont pas surprenants, compte tenu du fait que MLFlow est un outil visant à assister le cycle de vie des applications comportant du machine learning à travers des composantes de DevOps (plus particulièrement ici MLOps). On sait que les concepts de versioning, logging et intégration continue sont cruciaux dans les pratiques DevOps et dans notre cas, la traçabilité des expériences est assimilable à un mix de ces trois concepts. C’est pourquoi il n’est pas étonnant qu’elle soit au cœur de l’utilisation que les gens ont de MLFlow.
 
+#### Conclusion
+On voit donc bien que les fonctionnalités liées à la gestion de la traçabilité proposées par MLFlow sont, en pratique, utilisées par ses utilisateurs. On peut en conclure que cela répond donc à de vrais besoins qui contribuent réellement à l'amélioration des processus de développement et cycle de vie des applications de Machine Learning.
 
 ### Experience 4
 #### Présentation des résultats
