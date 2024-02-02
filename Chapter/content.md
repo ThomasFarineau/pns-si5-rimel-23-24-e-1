@@ -45,7 +45,7 @@ La documentation MLflow offre des informations sur la configuration et l'utilisa
   L'objectif principal est de vérifier si les projets Git utilisant MLFlow documentent l'implémentation de la traçabilité en mentionnant spécifiquement `log_params` ou `autolog`. Cela détermine leur conformité aux bonnes pratiques de documentation des expérimentations en machine learning, essentielles pour la traçabilité.
 
 ### Outils
-- Création d'un outil permettant d'analyser un grand nombre de projets utilisant MLflow et de vérifier la présence de logging.
+- Un script permettant d'analyser un grand nombre de projets utilisant MLflow et de vérifier la présence de logging.
 - MLFlow
 - Jupyter Notebook
 
@@ -77,16 +77,17 @@ En théorie, l'intégration de MLFlow dans les workflows de machine learning am�
 
 ### Expériences
 
-- **Expérience 1 :** Quelles sont les données sauvegardées par MLFlow vis-à-vis des expériences ?  
-  
+- **Expérience 1 :** Quelles sont les données sauvegardées par MLFlow vis-à-vis des expériences ?
+
 Nous avons défini une hypothèse formulant une liste de données que nous considérons comme nécessaires à sauvegarder pour garantir une traçabilité des expériences. Pour pouvoir valider (ou invalider) notre hypothèse, nous allons étudier la documentation afin de connaître précisément ce que MLFlow va permettre de sauvegarder pour assurer la traçabilité des expériences.
 
 - **Expérience 2 :** Où et comment sont stockées les données tracées par MLFlow ?  
 
+Notre hypothèse stipule que MLFlow propose une solution permettant de stocker les données pour la traçabilité de nos expériences. Afin de la valider (ou de l’invalider), nous allons utiliser la documentation que MLFlow nous met à disposition. Nous aurons pour objectif de trouver le moyen de stockage utilisé par MLFlow ainsi que la façon dont il le met en place.
 
 - **Expérience 3 :** Les fonctionnalités de traçabilité de MLFlow sont-elles souvent utilisées ?
 
-Nous avons émis l’hypothèse que ces fonctionnalités allaient être largement utilisées dans les projets mettant en place MLFlow. Pour pouvoir vérifier cette hypothèse, nous allons mettre en place un outil qui permet de scanner des projets afin d’y trouver des occurrences d’utilisations de ces fonctionnalités et ainsi émettre des statistiques. Ici nous avons fait le choix d’utiliser comme base pour notre dataset de projets, ceux qui sont présents sur le topic GitHub [mlflow-projects](https://github.com/topics/mlflow-projects). Pour autant, cette expérience comporte des limites, dans un premier temps sur le nombre de projets utilisés pour établir nos statistiques, qui est une bonne base pour démarrer mais pas suffisant pour faire des statistiques de haut niveau. Dans un second temps, ces projets sont majoritairement scolaires ou bien des projets d’exemple, donc ils ne représentent pas exactement un contexte professionnel réel. Malheureusement nous ne pouvons pas faire autrement car il nous faut des projets publics et accessibles.
+Nous avons émis l’hypothèse que ces fonctionnalités allaient être largement utilisées dans les projets mettant en place MLFlow. Pour pouvoir vérifier cette hypothèse, nous allons mettre en place un outil qui permet de scanner des projets afin d’y trouver des occurrences d’utilisations de ces fonctionnalités et ainsi émettre des statistiques. Ici, nous avons fait le choix d’utiliser comme base pour notre dataset de projets, ceux qui sont présents sur le topic GitHub [mlflow-projects](https://github.com/topics/mlflow-projects). Pour autant, cette expérience comporte des limites, dans un premier temps sur le nombre de projets utilisés pour établir nos statistiques, qui est une bonne base pour démarrer, mais pas suffisant pour faire des statistiques de haut niveau. Dans un second temps, ces projets sont majoritairement scolaires ou bien des projets d’exemple, donc ils ne représentent pas exactement un contexte professionnel réel. Malheureusement, nous ne pouvons pas faire autrement, car il nous faut des projets publics et accessibles.
 
 - **Expérience 4 :** Exécutabilité
 
