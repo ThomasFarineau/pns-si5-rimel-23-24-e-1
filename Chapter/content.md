@@ -163,6 +163,13 @@ MLflow, en tant qu'outil, n'est pas conçu pour garantir que les résultats d’
 #### Conclusion de l'expérience
 On en conclut que MLFlow n’assure aucune reproductibilité dans cette expérience. Ce qui, en fait, est logique puisque quand on exécute un programme de Machine Learning sur une machine, même si on lui met les mêmes paramètres, il arrive très souvent que les résultats diffèrent, car l'exécution dépend de nombreux facteurs qui peuvent varier. En soulignant l'importance de l'exécutabilité, MLFlow encourage une recherche plus structurée et une innovation plus rapide, posant les bases pour une avancée significative dans la fiabilité et l'efficacité des processus de machine learning.
 
+### Conclusion globale
+
+Pour conclure, on a donc vu que les besoins en termes de traçabilité des expériences pour le Machine Learning consistaient, selon MLFlow, à enregistrer seulement les paramètres ainsi que les métriques liées à ces dernières sur un serveur distant afin de permettre un travail de collaboration. Ces besoins identifiés sont partagés par les utilisateurs qui, en grande partie, utilisent ces outils mis en place par MLFlow. Enfin, le but de la traçabilité étant ultimement de pouvoir reproduire les expériences, nous avons vérifié et confirmé l’exécutabilité de ces dernières à partir des infos tracées par MLFlow. En revanche, il est trop compliqué d’émettre une conclusion sur une quelconque reproductibilité à notre niveau.
+
+Il est important de noter que cette analyse sur les besoins en matière de traçabilité s’est basée sur l’outil MLFlow. Toutefois, il est possible que d’autres outils similaires à MLFlow aient imaginé et mis en place des fonctionnalités répondant à d’autres besoins auxquels MLFlow ne répond pas. Ainsi, il pourrait être intéressant de mettre en confrontation et de croiser cette analyse avec d’autres analyses impliquant des outils similaires.
+
+
 ## VI. Outils
 
 - Script d’analyse de projet pour vérifier si les projets MLFlow utilise la traçabilité
@@ -175,7 +182,7 @@ On en conclut que MLFlow n’assure aucune reproductibilité dans cette expérie
   Les buts de ces notebooks sont de reproduire facilement les résultats obtenus lors de l'expérience 1.
 
 
-## VI. Réferences
+## VII. Réferences
 
 [Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation]  
 Disponible sur : https://proweb.md/ftp/carti/Continuous-Delivery-Jez%20Humble-David-Farley.pdf (Janvier 2024)
