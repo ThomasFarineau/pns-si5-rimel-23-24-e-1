@@ -58,7 +58,7 @@ Il est important de noter que toutes les semaines où nous avons eu des TD, on n
 
 ### Hypothèses
 
-1. Hypothèse 1 : MLFlow facilite la reproductibilité grâce aux metriques
+1. Hypothèse 1 : MLFlow facilite la reproductibilité grâce aux metriques  
    L'utilisation de MLFlow améliore significativement la reproductibilité des expériences de machine learning en permettant une traçabilité complète des processus. En enregistrant méticuleusement chaque étape, de la préparation des données au choix des algorithmes, en passant par les paramètres du modèle et les environnements d'entraînement, MLFlow offre une transparence totale. Cette documentation détaillée facilite la validation et l'itération des expériences, contribuant à l'amélioration de la qualité et de la fiabilité des modèles de ML. L'hypothèse suggère que grâce à cette traçabilité, les chercheurs et les développeurs peuvent reproduire des résultats avec plus de précision, favorisant ainsi une recherche plus rigoureuse et des développements plus efficaces dans le domaine du machine learning.
 
 ### Expériences
