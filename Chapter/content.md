@@ -80,6 +80,10 @@ MLflow, en tant qu'outil, n'est pas conçu pour garantir que les résultats d'un
 
 ## VI. Outils
 
+- Script d’analyse de projet pour vérifier si les projets MLFlow utilise la traçabilité
+  - [Script](./script/)
+
+
 - Outils utilisé pour l'expérience 1
   - [Notebook Jupyter Experiment 1](./assets/basic_experiment.ipynb)
   - [Notebook Jupyter Experiment 2](./assets/complexe_experiment.ipynb)  
