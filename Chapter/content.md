@@ -115,6 +115,7 @@ Avec MLflow:
 Selon la documentation, il existe deux types de stockage :
 - L’artéfact-store : Ce dernier va contenir les différents artéfacts produits par l’exécution de nos modèles. Les artéfacts vont permettre d’évaluer et de comparer les modèles produits et tracés par MLFlow. Ce stockage peut être en local ou dans le cloud.
 - Le backend-store : Ce dernier va contenir les méta données de l’expérience. Ce sont les informations qui vont permettre la traçabilité complète de l’historique des expériences réalisées. Ce stockage peut être local, dans une base de données ou dans une BD sur un serveur distant. La documentation nous propose d’utiliser des bases de données postgres.
+
 ![Figure : différents setup de stockages](./assets/images/stockage_setup.png)
 
 Comme nous nous intéressons à la traçabilité des expériences, nous allons nous focaliser sur le backend-store. La documentation de MLFlow nous propose une approche avec une utilisation de docker et de conteneur pour la création de notre base de données.
