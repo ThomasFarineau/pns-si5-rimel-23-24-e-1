@@ -122,6 +122,8 @@ Comme nous nous intéressons à la traçabilité des expériences, nous allons n
 
 La question d'où sont stockées les données à maintenant une réponse. Voyons à présent comment elles sont stockées.
 
+Avant d’exécuter expérience avec MLFlow, on va venir lancer un serveur MLFlow auquel on va venir spécifier l’emplacement du backend-store. Ensuite, on va venir renseigner dans le notebook l’Uri du serveur mlflow qui est en train de tourner. Pour ce faire, on utilise la commande `mlflow.set_tracking_uri()`. Après cela, il reste tout simplement à tracer les informations dont on a besoin et MLFlow va les envoyer au serveur qui va les stocker dans la base de donnée.
+
 #### Interprétation des résultats
 Comme nous avons pu le constater, MLFlow ne propose pas directement de solution pour sauvegarder les informations récoltées. Ces moyens de stockage sont mis en place directement par l’utilisateur.
 Cependant, MLFlow met en place un moyen facile pour enregistrer les informations à travers un serveur. L’exécution de notre expérience MLFlow va venir envoyer les métriques récoltées au serveur et ce dernier va venir sauvegarder ces données dans la BD qu’on lui a indiquée.
