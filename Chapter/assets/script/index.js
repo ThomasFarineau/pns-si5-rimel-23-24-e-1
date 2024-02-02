@@ -63,7 +63,7 @@ if (!isValidPath(args[0])) {
 }
 
 const startDirectory = args[0];
-const stringsToFind = ["log_param", "autolog"];
+const stringsToFind = ["log_param", "autolog", "log_metric"];
 
 const folders = getAllFolders(startDirectory);
 console.log('All folders in the directory:', folders);
