@@ -140,6 +140,7 @@ Ces facteurs incluent l'initialisation aléatoire des poids dans les modèles de
 #### Interprétation des résultats
 MLflow, en tant qu'outil, n'est pas conçu pour garantir que les résultats d’exécution de modèle seront identiques à chaque fois, mais plutôt pour fournir un cadre permettant la traçabilité et la gestion du cycle de vie des modèles de machine learning. Il permet aux développeurs de suivre les paramètres, les métriques et les artefacts associés à chaque exécution, facilitant ainsi la comparaison des expériences et la compréhension des conditions sous lesquelles les résultats ont été obtenus.  
 
+#### Conclusion
 On en conclut que MLFlow n’assure aucune reproductibilité dans cette expérience. Ce qui, en fait, est logique puisque quand on exécute un programme de Machine Learning sur une machine, même si on lui met les mêmes paramètres, il arrive très souvent que les résultats diffèrent, car l'exécution dépend de nombreux facteurs qui peuvent varier. En soulignant l'importance de l'exécutabilité, MLFlow encourage une recherche plus structurée et une innovation plus rapide, posant les bases pour une avancée significative dans la fiabilité et l'efficacité des processus de machine learning.
 
 ## VI. Outils
