@@ -112,7 +112,20 @@ Avec MLflow:
 
 ### Experience 2
 #### Présentation des résultats
+Selon la documentation, il existe deux types de stockage :
+- L’artéfact-store : Ce dernier va contenir les différents artéfacts produits par l’exécution de nos modèles. Les artéfacts vont permettre d’évaluer et de comparer les modèles produits et tracés par MLFlow. Ce stockage peut être en local ou dans le cloud.
+- Le backend-store : Ce dernier va contenir les méta données de l’expérience. Ce sont les informations qui vont permettre la traçabilité complète de l’historique des expériences réalisées. Ce stockage peut être local, dans une base de données ou dans une BD sur un serveur distant. La documentation nous propose d’utiliser des bases de données postgres.
+![Figure : différents setup de stockages](./assets/images/stockage_setup.png)
+
+Comme nous nous intéressons à la traçabilité des expériences, nous allons nous focaliser sur le backend-store. La documentation de MLFlow nous propose une approche avec une utilisation de docker et de conteneur pour la création de notre base de données.
+
+La question d'où sont stockées les données à maintenant une réponse. Voyons à présent comment elles sont stockées.
+
 #### Interprétation des résultats
+Comme nous avons pu le constater, MLFlow ne propose pas directement de solution pour sauvegarder les informations récoltées. Ces moyens de stockage sont mis en place directement par l’utilisateur.
+Cependant, MLFlow met en place un moyen facile pour enregistrer les informations à travers un serveur. L’exécution de notre expérience MLFlow va venir envoyer les métriques récoltées au serveur et ce dernier va venir sauvegarder ces données dans la BD qu’on lui a indiquée.
+
+#### Conclusion de l'expérience
 
 ### Experience 3
 #### Présentation des résultats
@@ -123,7 +136,7 @@ Après avoir fait tourner notre script sur les projets du topic GitHub `mlflow-p
 #### Interprétation des résultats
 On se rend compte qu’une majorité écrasante des projets comporte donc les fonctionnalités de traçabilité proposées par MLFlow. Bien que ces projets soient, comme précisé auparavant, des projets pour la plupart scolaires ou d’exemple, cela montre bien que la traçabilité est un aspect considéré comme fondamental par les utilisateurs de MLFlow, ce qui valide notre hypothèse. Ces résultats ne sont pas surprenants, compte tenu du fait que MLFlow est un outil visant à assister le cycle de vie des applications comportant du machine learning à travers des composantes de DevOps (plus particulièrement ici MLOps). On sait que les concepts de versioning, logging et intégration continue sont cruciaux dans les pratiques DevOps et dans notre cas, la traçabilité des expériences est assimilable à un mix de ces trois concepts. C’est pourquoi il n’est pas étonnant qu’elle soit au cœur de l’utilisation que les gens ont de MLFlow.
 
-#### Conclusion
+#### Conclusion de l'expérience
 On voit donc bien que les fonctionnalités liées à la gestion de la traçabilité proposées par MLFlow sont, en pratique, utilisées par ses utilisateurs. On peut en conclure que cela répond donc à de vrais besoins qui contribuent réellement à l'amélioration des processus de développement et cycle de vie des applications de Machine Learning.
 
 ### Experience 4
@@ -143,7 +156,7 @@ Ces facteurs incluent l'initialisation aléatoire des poids dans les modèles de
 #### Interprétation des résultats
 MLflow, en tant qu'outil, n'est pas conçu pour garantir que les résultats d’exécution de modèle seront identiques à chaque fois, mais plutôt pour fournir un cadre permettant la traçabilité et la gestion du cycle de vie des modèles de machine learning. Il permet aux développeurs de suivre les paramètres, les métriques et les artefacts associés à chaque exécution, facilitant ainsi la comparaison des expériences et la compréhension des conditions sous lesquelles les résultats ont été obtenus.  
 
-#### Conclusion
+#### Conclusion de l'expérience
 On en conclut que MLFlow n’assure aucune reproductibilité dans cette expérience. Ce qui, en fait, est logique puisque quand on exécute un programme de Machine Learning sur une machine, même si on lui met les mêmes paramètres, il arrive très souvent que les résultats diffèrent, car l'exécution dépend de nombreux facteurs qui peuvent varier. En soulignant l'importance de l'exécutabilité, MLFlow encourage une recherche plus structurée et une innovation plus rapide, posant les bases pour une avancée significative dans la fiabilité et l'efficacité des processus de machine learning.
 
 ## VI. Outils
